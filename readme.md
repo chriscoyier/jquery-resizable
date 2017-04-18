@@ -117,7 +117,7 @@ $(".box").resizable({
     onDragStart: function (e, $el, opt) {
         $el.css("cursor", "nwse-resize");
     },
-    onDragStop: function (e, $el, opt) {
+    onDragEnd: function (e, $el, opt) {
         $el.css("cursor", "");
     }
 });
